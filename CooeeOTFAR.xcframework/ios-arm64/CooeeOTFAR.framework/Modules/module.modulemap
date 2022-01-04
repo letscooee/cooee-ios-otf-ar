@@ -1,0 +1,6 @@
+framework module CooeeOTFAR {
+  umbrella header "CooeeOTFAR.h"
+
+  export *
+  module * { export * }
+}
