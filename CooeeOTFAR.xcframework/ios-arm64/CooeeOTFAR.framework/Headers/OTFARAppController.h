@@ -9,7 +9,7 @@
 @class DisplayConnection;
 
 __attribute__ ((visibility("default")))
-@interface UnityAppController : NSObject<UIApplicationDelegate>
+@interface OTFARAppController : NSObject<UIApplicationDelegate>
 {
     UnityView*          _unityView;
     CADisplayLink*      _displayLink;
@@ -75,8 +75,8 @@ __attribute__ ((visibility("default")))
 extern "C" {
 #endif
 
-extern UnityAppController* _UnityAppController;
-extern UnityAppController* GetAppController();
+extern OTFARAppController* _UnityAppController;
+extern OTFARAppController* GetAppController();
 
 #ifdef __cplusplus
 } // extern "C"

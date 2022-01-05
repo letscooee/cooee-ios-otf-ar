@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-#import "UnityAppController.h"
+#import "OTFARAppController.h"
 
 #include "UndefinePlatforms.h"
 #include <mach-o/ldsyms.h>
@@ -38,7 +38,7 @@ __attribute__ ((visibility("default")))
 {
 }
 
-- (UnityAppController*)appController;
+- (OTFARAppController*)appController;
 
 + (CooeeOTFAR*)getInstance;
 
