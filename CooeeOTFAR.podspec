@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CooeeOTFAR"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Hyper-personalised Mobile App Re-Engagement via Machine Learning"
   s.homepage     = "https://github.com/letscooee/cooee-ios-otf-ar"
   s.description  = "Hyper-personalised Mobile App Re-Engagement via Machine Learning"
